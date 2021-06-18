@@ -3,7 +3,7 @@ package com.x3ntech;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class mergeSortedArrays {
+public class ArraysMergeSorted {
 
     public static void main(String[] args) {
         mergeSortedArraysFunc(new int[]{0, 3, 4, 31}, new int[]{4, 6, 30});

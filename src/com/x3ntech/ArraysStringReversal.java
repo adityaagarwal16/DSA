@@ -1,6 +1,6 @@
 package com.x3ntech;
 
-public class StringReversal {
+public class ArraysStringReversal {
 
     public static void main(String[] args) {
 

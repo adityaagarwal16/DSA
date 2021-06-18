@@ -7,7 +7,7 @@ import java.util.HashMap;
 public class HashTableRecurring {
 
     public static void main(String[] args) {
-        int[] array = new int[] {1,2,3,7,5,2,3};
+        int[] array = new int[] {1,2,2,1,3,7,5,2,3};
 
         //this solution has a space complexity of O(n) but also a time complexity of O(n)
         //while a nested loop solution will have a space comp. of O(1) and time comp. of O(n^2)
