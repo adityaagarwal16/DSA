@@ -12,9 +12,11 @@ public class TreesBinarySearch {
         tree.insert(170);
         tree.insert(15);
         tree.insert(1);
+
+        System.out.println(tree.lookup(5));
         //JSON.stringify(traverse(tree.root));
 
-        System.out.println(tree.root);
+        //System.out.println(tree.root);
 
 
     }
@@ -76,10 +78,22 @@ class BinarySearchTree {
         }
     }
 
-    void lookup(int value){
-        //Code here
+    Node lookup(int value) {
+        if(root != null) {
+            Node currentNode = root;
+            while (currentNode != null) {
+                System.out.println(currentNode.value);
+                if (value < currentNode.value)
+                    currentNode = currentNode.left;
+                else if (value > currentNode.value)
+                    currentNode = currentNode.right;
+                else {
+                    return currentNode;
+                }
+            }
+        }
+        return null;
     }
-    // remove
 }
 
 
